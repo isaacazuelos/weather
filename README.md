@@ -3,7 +3,10 @@
 What's the weather like?
 
 This isn't a _great_ tool, it's a solution to one of the practice problems
-in [_Programming Elixir_][pe]. You probably don't want to use this.
+in [_Programming Elixir_][pe].
+
+You probably don't want to use this -- there aren't really tests and the error
+messages are pretty useles.
 
 [pe]: https://pragprog.com/book/elixir/programming-elixir
 
@@ -26,7 +29,7 @@ Documentation can be generated with [ExDoc][]
 ## Configuration
 
 `weather` needs to be told what city you're in. Find your city
-on [weather.gc.ca][gc] and copy the URL.
+on [weather.gc.ca][gc] and copy the weather feed URL.
 
 Run weather with the `--init` flag and the URL to have it set a `.weather`
 file in your home directory that it'll use to remember for next time.
@@ -41,7 +44,7 @@ $ weather --init <url>
 
 Just run `weather` to get the current conditions.
 
-<!-- Get the full details with `--details`.  -->
+<!-- Get the full details with `--details`. -->
 
 <!-- You can also get the forecast with the `--forecast` flag. -->
 
