@@ -9,10 +9,10 @@ in [_Programming Elixir_][pe]. You probably don't want to use this.
 
 ## Installation
 
-You'll need [elixir][] installed. 
+You'll need [elixir][] installed.
 
 You can do this with whatever your system package manager is. For instance on
-macOS you can `brew install elixir` if you have [`brew`][brew] installed
+macOS you can `brew install elixir` if you have [`brew`][brew] installed.
 
 You can build this with [`mix`][mix].
 
@@ -39,7 +39,7 @@ $ weather --init <url>
 
 ## Use
 
-Just run `weather` to get the current conditions. 
+Just run `weather` to get the current conditions.
 
 <!-- Get the full details with `--details`.  -->
 

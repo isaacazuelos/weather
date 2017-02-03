@@ -1,3 +1,5 @@
+mix.lock
+sample_data
 /_build
 /cover
 /deps

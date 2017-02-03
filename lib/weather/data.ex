@@ -16,7 +16,7 @@ defmodule Weather.Data do
     @feed
     |> HTTPoison.get(@user_agent)
     |> Result.map(fn %Res{body: b} -> b end)
-    |> Result.map(&process_xml/1)
+    |> Result.map(&SweetXml.parse/1)
   end
   
   @doc """
@@ -25,10 +25,5 @@ defmodule Weather.Data do
   def current(data) do
     import SweetXml
     data |> SweetXml.xpath(~x"//entry[3]/title/text()")
-  end
-
-  # Parse the XML document into a xmerl-style structure.
-  defp process_xml(xml) do
-    xml |> SweetXml.parse
   end
 end
