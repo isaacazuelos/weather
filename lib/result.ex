@@ -1,6 +1,5 @@
 defmodule Result do
   @moduledoc """
-
   Monadic error handling for the `{:ok, _} | {:error, _}` pattern. The
   next function in the chain is placed second so that you can more
   easily work with the `|>` macro.

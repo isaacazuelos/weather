@@ -6,7 +6,6 @@ defmodule Weather.Data do
   """
 
   @user_agent [{"User-agent", "weather isaac@azuelos.ca"}]
-  @feed "https://weather.gc.ca/rss/city/ab-52_e.xml"
 
   @doc """
   Fetch the data out of the feel url

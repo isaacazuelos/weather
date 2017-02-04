@@ -21,8 +21,9 @@ defmodule Weather.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.11"},
+      {:sweet_xml, "~> 0.6.4"},
       {:credo, "~> 0.5", only: [:dev, :test]},
-      {:sweet_xml, "~> 0.6.4"}
+      {:ex_doc, "~> 0.14", only: :dev}
     ]
   end
 
