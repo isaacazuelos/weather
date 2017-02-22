@@ -6,7 +6,7 @@ This isn't a _great_ tool, it's a solution to one of the practice problems
 in [_Programming Elixir_][pe].
 
 You probably don't want to use this -- there aren't really tests and the error
-messages are pretty useles.
+messages are pretty useless.
 
 [pe]: https://pragprog.com/book/elixir/programming-elixir
 
@@ -19,7 +19,7 @@ macOS you can `brew install elixir` if you have [`brew`][brew] installed.
 
 You can build this with [`mix`][mix].
 
-Documentation can be generated with [ExDoc][]
+Documentation can maybe be generated with [ExDoc][], not that I've tried.
 
 [brew]: http://brew.sh
 [elixir]: http://elixir-lang.org
