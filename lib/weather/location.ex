@@ -18,6 +18,8 @@ defmodule Weather.Location do
   Read in the feel URL from the location file.
   """
   def get(path \\ @file_path) do
-    File.read(path)
+    path
+    |> File.read()
+    |> Result.map(&String.trim/1)
   end
 end
